@@ -6,10 +6,12 @@
 
 #### html
 
--- goToPage：实现页面内快速定位。
+-- goToPage: 实现页面内快速定位。
 
 #### css
 
--- commonStyle：共同风格。
+-- commonStyle: 通用的清除默认样式。
 
 #### js
+
+-- musicPlayPause: audio 控件的播放和暂停控制，并且切换旋转动画。
