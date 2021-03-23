@@ -15,3 +15,5 @@
 #### js
 
 -- musicPlayPause: audio 控件的播放和暂停控制，并且切换旋转动画。
+
+-- music：是musicPlayPause的升级版，包含jq、perload预加载。当使用**微信移动端**打开页面时，背景音乐首次会自动播放。 
