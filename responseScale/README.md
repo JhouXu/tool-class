@@ -1,4 +1,4 @@
-# bgmOperation
+# responseScale
 
 中文名：响应缩放类
 
