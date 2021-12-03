@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <title>example</title>
+    <!-- 响应缩放类引入 -->
+    <script src="./responseScale.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+      #container {
+        width: 750px;
+        height: 1508px;
+      }
+      .section1 {
+        width: inherit;
+        height: inherit;
+        background: url(./images/test_bg.jpg) center / cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <section class="section1"> </section>
+    </div>
+  </body>
+  <script>
+    new responseScale(document.querySelector("#container"));
+  </script>
+</html>
