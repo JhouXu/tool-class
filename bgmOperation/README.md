@@ -67,4 +67,4 @@ new bgmOperation("#bgm-btn", "#bgm", "./images/music-play.png", "./images/music-
 # 文件说明
 
 - bgmOperation.js 「未压缩版本」包含详细注释，以及两种图片切换方式。
-- bgmOperation.min.js 「压缩版本」图片切换方式使用方法一
+- bgmOperation.min.js 「压缩版本」图片切换方式使用方法一。
