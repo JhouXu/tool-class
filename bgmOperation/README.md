@@ -16,9 +16,9 @@
     <meta charset="UTF-8" />
     <title>example</title>
     <!-- jweixin 微信JSdk「必需」 -->
-    <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js" defer="defer"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
     <!-- 背景音乐操作类引入 -->
-    <script type="module" src="./js/main.js" defer="defer"></script>
+    <script src="./js/main.js"></script>
   </head>
   <body>
     <div id="container">
