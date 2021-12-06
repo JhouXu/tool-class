@@ -32,7 +32,6 @@ class responseScale {
   getScale(innerW, innerH, designW, designH) {
     let w = +(innerW / designW).toFixed(3);
     let h = +(innerH / designH).toFixed(3);
-    console.log(w, h);
     return w < h ? h : w; // 「效果一」根据宽度高度，选择最小比例缩放
     // return w; // 「效果二」根据宽度缩放
     // return h; // 「效果三」根据高度缩放
