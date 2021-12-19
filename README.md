@@ -18,6 +18,12 @@
 
 -- music：是 musicPlayPause 的升级版，包含 jq、perload 预加载。当使用**微信移动端**打开页面时，背景音乐首次会自动播放。
 
+## nineRichLottery
+
+中文名：九宫格抽奖类
+
+实现九宫格抽奖效果，根据指定下标实现精准停止，timing: 快 -> 慢，内置 rule，支持自定义动画显示位置以及显示顺序。
+
 ## responseScale
 
 中文名：背景音乐操作类
