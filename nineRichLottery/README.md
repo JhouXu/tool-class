@@ -76,7 +76,7 @@ document.querySelector("#btn").addEventListener("click", function () {
 this.rule = [0, 1, 2, 5, 8, 7, 6, 3];
 ```
 
-![效果图](./images/rendering1.gif)
+![效果图](https://github.com/JhouXu/tool-class/tree/main/nineRichLottery/images/rendering1.gif)
 
 效果二
 
@@ -84,7 +84,7 @@ this.rule = [0, 1, 2, 5, 8, 7, 6, 3];
 this.rule = [0, 1, 2, 3, 5, 6, 7, 8];
 ```
 
-![效果图](./images/rendering2.gif)
+![效果图](https://github.com/JhouXu/tool-class/tree/main/nineRichLottery/images/rendering2.gif)
 
 效果三
 
@@ -92,9 +92,7 @@ this.rule = [0, 1, 2, 3, 5, 6, 7, 8];
 this.rule = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 ```
 
-![效果图](./images/rendering3.gif)
-
-[立即运行](./index.html)
+![效果图](https://github.com/JhouXu/tool-class/tree/main/nineRichLottery/images/rendering3.gif)
 
 # 文件说明
 
