@@ -53,22 +53,23 @@ body {
 
 ```js
 // javascript
+// new responseScale(dom[, designW, designH]);
 new responseScale(document.querySelector("#container")); // 根绝参数说明填写
 ```
 
 # 效果演示
 
-效果一「根据宽高度选择最小值适应」
+效果一
 
-![效果图](./images/rendering1.gif)
+效果二
 
-效果二「根据宽度适应：常用」
-
-![效果图](./images/rendering2.gif)
-
-效果三「根据高度适应：常用」
+效果三「根据宽度适应：常用」
 
 ![效果图](./images/rendering3.gif)
+
+效果四「根据高度适应：常用」
+
+![效果图](./images/rendering4.gif)
 
 # 文件说明
 

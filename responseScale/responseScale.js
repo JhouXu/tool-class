@@ -32,9 +32,10 @@ class responseScale {
   getScale(innerW, innerH, designW, designH) {
     let w = +(innerW / designW).toFixed(3);
     let h = +(innerH / designH).toFixed(3);
-    return w < h ? h : w; // 「效果一」根据宽度高度，选择最小比例缩放
-    // return w; // 「效果二」根据宽度缩放
-    // return h; // 「效果三」根据高度缩放
+    return w > h ? h : w; // 「效果一」最小适配，允许白边的存在
+    // return w < h ? h : w; // 「效果二」满屏适配，边沿内容可能会被切除
+    // return w; // 「效果三」根据宽度缩放
+    // return h; // 「效果四」根据高度缩放
   }
 
   setScaleDom(dom, scale) {
