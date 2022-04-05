@@ -1,6 +1,6 @@
 # Tool Library
 
-常用的 function 与 class 的工具库，及常见的页面效果；通过通俗易懂的注释，让每一个人都能够看懂。
+常用的 function 与 class 的工具库，及常见的页面效果。
 
 # Function
 
